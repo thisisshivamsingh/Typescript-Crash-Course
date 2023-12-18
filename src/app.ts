@@ -210,15 +210,15 @@
 // person.age;
 
 interface IPost {
-    title: string;
-    id: number;
-    description: string;
+  title: string;
+  id: number;
+  description: string;
 }
 
 interface IUser {
-    id: number;
-    name: string;
-    age: number;
+  id: number;
+  name: string;
+  age: number;
 }
 
 // const fetchPostData = async (path: string): Promise<IPost[]> => {
